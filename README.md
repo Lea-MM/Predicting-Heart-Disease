@@ -12,16 +12,13 @@ The dataset contains several important features that are critical to predicting 
 
 - **Age**: Age of the patient (in years)
 - **Sex**: Sex of the patient (M: Male, F: Female)
-- **ChestPainType**: Type of chest pain  
-  (TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic)
+- **ChestPainType**: Type of chest pain (TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic)
 - **RestingBP**: Resting blood pressure (in mm Hg)
 - **Cholesterol**: Serum cholesterol level (in mm/dl)
 - **FastingBS**: Fasting blood sugar (1: if FastingBS > 120 mg/dl, 0: otherwise)
-- **RestingECG**: Resting electrocardiogram results  
-  (Normal: Normal, ST: ST-T wave abnormality, LVH: Left ventricular hypertrophy)
+- **RestingECG**: Resting electrocardiogram results (Normal: Normal, ST: ST-T wave abnormality, LVH: Left ventricular hypertrophy)
 - **MaxHR**: Maximum heart rate achieved (Numeric value between 60 and 202)
 - **ExerciseAngina**: Exercise-induced angina (Y: Yes, N: No)
 - **Oldpeak**: Depression of the ST segment (Numeric value)
-- **ST_Slope**: Slope of the peak exercise ST segment  
-  (Up: upsloping, Flat: flat, Down: downsloping)
+- **ST_Slope**: Slope of the peak exercise ST segment (Up: upsloping, Flat: flat, Down: downsloping)
 - **HeartDisease**: Output class (1: heart disease, 0: Normal)

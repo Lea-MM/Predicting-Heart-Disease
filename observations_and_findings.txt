@@ -1,0 +1,9 @@
+Descriptive Statistics:
+1. The average age of patients is approximately 53 years.
+2. The maximum cholesterol level appears to be 603, which is quite high and might be an outlier. Also, The median for Cholesterol is higher than its mean by roughly 25 mm/dl, indicating that it could be a left-skewed distribution with a possibility of outliers skewing the distribution.
+3. RestingBP and Cholesterol have a minimum value of zero.
+4. There don't seem to be any missing values in these columns.
+
+Observations: RestingBP is the resting blood pressure, and it's unlikely to be zero. But what about Cholesterol? Low cholesterol certainly sounds like a good thing, but can it be zero?
+Insights: The American Heart Association describe the serum cholesterol as 'a composite of different measurements. The total blood cholesterol is calculated by adding the HDL and LDL cholesterol levels, plus 20% of your triglyceride level.' So, a value 0 is unlikely.
+

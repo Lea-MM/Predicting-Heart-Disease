@@ -15,3 +15,13 @@ print(df.head())
 print(f"Number of features (columns): {df.shape[1]}")
 print(f"Number of observation (rows): {df.shape[0]}")
 
+# identifying the data types
+print("\nColumn Data Types:")
+print(df.dtypes)
+
+# displaying the descriptive statistics for the numerical columns
+print("\nDescriptive Statistics:")
+print(df.describe())
+
+# checking for missing values 
+print(f"\n Missing Values: \n{df.isnull().sum()}")

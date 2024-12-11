@@ -7,3 +7,11 @@ Descriptive Statistics:
 Observations: RestingBP is the resting blood pressure, and it's unlikely to be zero. But what about Cholesterol? Low cholesterol certainly sounds like a good thing, but can it be zero?
 Insights: The American Heart Association describe the serum cholesterol as 'a composite of different measurements. The total blood cholesterol is calculated by adding the HDL and LDL cholesterol levels, plus 20% of your triglyceride level.' So, a value 0 is unlikely.
 
+Plot Categorical Counts:
+1. Sex Distribution: The majority of patients are male (~725), while there are significantly fewer female patients (~193).
+2. Chest Pain Type: The most common chest pain type is Asymptomatic (ASY) (~496), followed by Non-Anginal Pain (NAP) (~203). Atypical Angina (ATA) and Typical Angina (TA) are less common (~173 and ~46, respectively).
+3. Resting ECG: Most patients have a normal resting ECG (~552). Fewer patients exhibit signs of Left Ventricular Hypertrophy (LVH) (~188) or ST abnormalities (ST) (~178).
+4. Exercise Angina: The majority of patients do not experience exercise-induced angina (N) (~547), while fewer patients experience it (Y) (~371).
+5. ST Slope: The most common ST slope type is Flat (~460), followed by Upsloping (~395). The least common is Downsloping (~63).
+6. Heart Disease: A significant number of patients do not have heart disease (0 ~508). However, a substantial proportion of patients are affected by heart disease (1 ~410).
+7. FastingBS (Fasting Blood Sugar): The majority of patients have fasting blood sugar levels below 120 mg/dL (0 ~704). A smaller portion of patients have fasting blood sugar levels of 120 mg/dL or higher (1 ~214).

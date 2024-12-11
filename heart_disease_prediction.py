@@ -5,7 +5,6 @@ import math
 
 # initializing the constants
 file = 'heart_disease.csv'
-categorical_columns = ['Sex', 'ChestPainType', 'RestingECG', 'ExerciseAngina', 'ST_Slope', 'HeartDisease', 'FastingBS']
 
 # reading the dataset into a pandas dataframe
 data = pd.read_csv(file)
@@ -52,8 +51,10 @@ def plot_categorical_counts(df, categorical_columns, columns_per_row):
     Parameters:
     df (Pandas DataFrame containing the data).
     categorical_columns (List of strings representing categorical column names to analyze).
+    columns_per_row (The number of bar charts to display in each row of the grid).
     
-    The function generates bar charts for each column and displays them in a clean layout.
+    Returns:
+    None (The function generates bar charts for each column and displays them in a clean layout).
     """
     
     # Calculate the number of rows needed
@@ -88,7 +89,25 @@ def plot_categorical_counts(df, categorical_columns, columns_per_row):
     plt.tight_layout()
     plt.show()
     
+def plot_categorical_by_heart_disease(df, categorical_columns, columns_per_row):
+    """
+    Plots grouped bar charts for categorical columns to visualize their distribution by a specific group column.
+
+    Parameters:
+    df (Pandas DataFrame containing the data).
+    categorical_columns (List of strings representing categorical column names to analyze).
+    columns_per_row (The number of bar charts to display in each row of the grid).
+
+    Returns:
+    None (The function creates one subplot per categorical column and displays grouped bar charts).
+    """
+    
+    
+
+
 
 ### Execute Functions
-analyze_numerical_columns(data)
-plot_categorical_counts(data, categorical_columns=categorical_columns, columns_per_row=4)
+# analyze_numerical_columns(data)
+# categorical_columns = ['Sex', 'ChestPainType', 'RestingECG', 'ExerciseAngina', 'ST_Slope', 'HeartDisease', 'FastingBS']
+#plot_categorical_counts(data, categorical_columns=categorical_columns, columns_per_row=4)
+categorical_columns = ['Sex', 'ChestPainType', 'RestingECG', 'ExerciseAngina', 'ST_Slope', 'HeartDisease', 'FastingBS']
